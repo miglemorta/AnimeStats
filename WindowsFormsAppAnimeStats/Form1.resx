@@ -1,0 +1,1260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="listView1AnimeRating.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="columnHeader1rank.Text" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="columnHeader1rank.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="columnHeader2title.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="columnHeader2title.Width" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="columnHeader3episodes.Text" xml:space="preserve">
+    <value>Episodes</value>
+  </data>
+  <data name="columnHeader3episodes.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="columnHeader4start.Text" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="columnHeader4start.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="columnHeader5end.Text" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="columnHeader5end.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="columnHeader6members.Text" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="columnHeader6members.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="columnHeader7score.Text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="listView1AnimeRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 6</value>
+  </data>
+  <data name="listView1AnimeRating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 411</value>
+  </data>
+  <data name="listView1AnimeRating.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;listView1AnimeRating.Name" xml:space="preserve">
+    <value>listView1AnimeRating</value>
+  </data>
+  <data name="&gt;&gt;listView1AnimeRating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView1AnimeRating.Parent" xml:space="preserve">
+    <value>tabAnimeRating</value>
+  </data>
+  <data name="&gt;&gt;listView1AnimeRating.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabAnimeRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabAnimeRating.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabAnimeRating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1027, 418</value>
+  </data>
+  <data name="tabAnimeRating.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabAnimeRating.Text" xml:space="preserve">
+    <value>Best-Rated Anime</value>
+  </data>
+  <data name="&gt;&gt;tabAnimeRating.Name" xml:space="preserve">
+    <value>tabAnimeRating</value>
+  </data>
+  <data name="&gt;&gt;tabAnimeRating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabAnimeRating.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabAnimeRating.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="listView2MangaRating.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="columnHeader1rankM.Text" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="columnHeader1rankM.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="columnHeader1titleM.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="columnHeader1titleM.Width" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="columnHeader1vol.Text" xml:space="preserve">
+    <value>Volumes</value>
+  </data>
+  <data name="columnHeader1vol.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="columnHeader1startM.Text" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="columnHeader1startM.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="columnHeader1endM.Text" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="columnHeader1endM.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="columnHeader1memM.Text" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="columnHeader1memM.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="columnHeader1scoreM.Text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="listView2MangaRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="listView2MangaRating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1016, 411</value>
+  </data>
+  <data name="listView2MangaRating.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listView2MangaRating.Name" xml:space="preserve">
+    <value>listView2MangaRating</value>
+  </data>
+  <data name="&gt;&gt;listView2MangaRating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView2MangaRating.Parent" xml:space="preserve">
+    <value>tabManga</value>
+  </data>
+  <data name="&gt;&gt;listView2MangaRating.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabManga.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabManga.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabManga.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1027, 418</value>
+  </data>
+  <data name="tabManga.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabManga.Text" xml:space="preserve">
+    <value>Best-Rated Manga</value>
+  </data>
+  <data name="&gt;&gt;tabManga.Name" xml:space="preserve">
+    <value>tabManga</value>
+  </data>
+  <data name="&gt;&gt;tabManga.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabManga.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabManga.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="listView3Characters.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="listView3Characters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 4</value>
+  </data>
+  <data name="listView3Characters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 411</value>
+  </data>
+  <data name="listView3Characters.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listView3Characters.Name" xml:space="preserve">
+    <value>listView3Characters</value>
+  </data>
+  <data name="&gt;&gt;listView3Characters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView3Characters.Parent" xml:space="preserve">
+    <value>tabCharacters</value>
+  </data>
+  <data name="&gt;&gt;listView3Characters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabCharacters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabCharacters.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabCharacters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1027, 418</value>
+  </data>
+  <data name="tabCharacters.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabCharacters.Text" xml:space="preserve">
+    <value>Most Popular Characters</value>
+  </data>
+  <data name="&gt;&gt;tabCharacters.Name" xml:space="preserve">
+    <value>tabCharacters</value>
+  </data>
+  <data name="&gt;&gt;tabCharacters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCharacters.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabCharacters.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="listView4AnimePop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="columnHeader4.Width" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="columnHeader5.Text" xml:space="preserve">
+    <value>Episodes</value>
+  </data>
+  <data name="columnHeader5.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="columnHeader6.Text" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="columnHeader6.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="columnHeader7.Text" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="columnHeader7.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="columnHeader8.Text" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="columnHeader8.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="columnHeader9.Text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="listView4AnimePop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 4</value>
+  </data>
+  <data name="listView4AnimePop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 411</value>
+  </data>
+  <data name="listView4AnimePop.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listView4AnimePop.Name" xml:space="preserve">
+    <value>listView4AnimePop</value>
+  </data>
+  <data name="&gt;&gt;listView4AnimePop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView4AnimePop.Parent" xml:space="preserve">
+    <value>tabAnimePop</value>
+  </data>
+  <data name="&gt;&gt;listView4AnimePop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabAnimePop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabAnimePop.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabAnimePop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1027, 418</value>
+  </data>
+  <data name="tabAnimePop.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabAnimePop.Text" xml:space="preserve">
+    <value>Most Popular Anime</value>
+  </data>
+  <data name="&gt;&gt;tabAnimePop.Name" xml:space="preserve">
+    <value>tabAnimePop</value>
+  </data>
+  <data name="&gt;&gt;tabAnimePop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabAnimePop.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabAnimePop.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="listViewAnswerPopRated.Location" type="System.Drawing.Point, System.Drawing">
+    <value>885, 280</value>
+  </data>
+  <data name="listViewAnswerPopRated.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="listViewAnswerPopRated.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerPopRated.Name" xml:space="preserve">
+    <value>listViewAnswerPopRated</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerPopRated.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerPopRated.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerPopRated.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonPopRated.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonPopRated.Location" type="System.Drawing.Point, System.Drawing">
+    <value>793, 280</value>
+  </data>
+  <data name="buttonPopRated.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="buttonPopRated.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="buttonPopRated.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;buttonPopRated.Name" xml:space="preserve">
+    <value>buttonPopRated</value>
+  </data>
+  <data name="&gt;&gt;buttonPopRated.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPopRated.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;buttonPopRated.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 283</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>best-rated anime</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBoxTopRated.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 280</value>
+  </data>
+  <data name="textBoxTopRated.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
+  </data>
+  <data name="textBoxTopRated.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="textBoxTopRated.Text" xml:space="preserve">
+    <value>integer (1-50)</value>
+  </data>
+  <data name="&gt;&gt;textBoxTopRated.Name" xml:space="preserve">
+    <value>textBoxTopRated</value>
+  </data>
+  <data name="&gt;&gt;textBoxTopRated.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTopRated.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;textBoxTopRated.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBoxTopPop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 280</value>
+  </data>
+  <data name="textBoxTopPop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
+  </data>
+  <data name="textBoxTopPop.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="textBoxTopPop.Text" xml:space="preserve">
+    <value>integer (1-50)</value>
+  </data>
+  <data name="&gt;&gt;textBoxTopPop.Name" xml:space="preserve">
+    <value>textBoxTopPop</value>
+  </data>
+  <data name="&gt;&gt;textBoxTopPop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTopPop.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;textBoxTopPop.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 283</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 17</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>most popular anime there are among the Top</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="listViewAnswerManga.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 104</value>
+  </data>
+  <data name="listViewAnswerManga.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="listViewAnswerManga.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerManga.Name" xml:space="preserve">
+    <value>listViewAnswerManga</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerManga.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerManga.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerManga.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="listViewAnswerFinished.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 18</value>
+  </data>
+  <data name="listViewAnswerFinished.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="listViewAnswerFinished.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerFinished.Name" xml:space="preserve">
+    <value>listViewAnswerFinished</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerFinished.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerFinished.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerFinished.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonFinished.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonFinished.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 18</value>
+  </data>
+  <data name="buttonFinished.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="buttonFinished.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="buttonFinished.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;buttonFinished.Name" xml:space="preserve">
+    <value>buttonFinished</value>
+  </data>
+  <data name="&gt;&gt;buttonFinished.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonFinished.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;buttonFinished.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="buttonManga.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonManga.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 105</value>
+  </data>
+  <data name="buttonManga.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="buttonManga.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="buttonManga.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;buttonManga.Name" xml:space="preserve">
+    <value>buttonManga</value>
+  </data>
+  <data name="&gt;&gt;buttonManga.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonManga.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;buttonManga.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="textBoxFinished.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 18</value>
+  </data>
+  <data name="textBoxFinished.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="textBoxFinished.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="textBoxFinished.Text" xml:space="preserve">
+    <value>double</value>
+  </data>
+  <data name="&gt;&gt;textBoxFinished.Name" xml:space="preserve">
+    <value>textBoxFinished</value>
+  </data>
+  <data name="&gt;&gt;textBoxFinished.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxFinished.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;textBoxFinished.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="textBoxMem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 104</value>
+  </data>
+  <data name="textBoxMem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="textBoxMem.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="textBoxMem.Text" xml:space="preserve">
+    <value>integer</value>
+  </data>
+  <data name="&gt;&gt;textBoxMem.Name" xml:space="preserve">
+    <value>textBoxMem</value>
+  </data>
+  <data name="&gt;&gt;textBoxMem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMem.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;textBoxMem.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelMembers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMembers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMembers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 105</value>
+  </data>
+  <data name="labelMembers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="labelMembers.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelMembers.Text" xml:space="preserve">
+    <value>and members ≥</value>
+  </data>
+  <data name="&gt;&gt;labelMembers.Name" xml:space="preserve">
+    <value>labelMembers</value>
+  </data>
+  <data name="&gt;&gt;labelMembers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMembers.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;labelMembers.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="textBoxVol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 104</value>
+  </data>
+  <data name="textBoxVol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="textBoxVol.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="textBoxVol.Text" xml:space="preserve">
+    <value>integer</value>
+  </data>
+  <data name="&gt;&gt;textBoxVol.Name" xml:space="preserve">
+    <value>textBoxVol</value>
+  </data>
+  <data name="&gt;&gt;textBoxVol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxVol.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;textBoxVol.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="listViewAnswerChar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 194</value>
+  </data>
+  <data name="listViewAnswerChar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="listViewAnswerChar.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerChar.Name" xml:space="preserve">
+    <value>listViewAnswerChar</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerChar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerChar.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;listViewAnswerChar.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="buttonCountChar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 194</value>
+  </data>
+  <data name="buttonCountChar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="buttonCountChar.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="buttonCountChar.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;buttonCountChar.Name" xml:space="preserve">
+    <value>buttonCountChar</value>
+  </data>
+  <data name="&gt;&gt;buttonCountChar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCountChar.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;buttonCountChar.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="textBox1Char.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 194</value>
+  </data>
+  <data name="textBox1Char.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="textBox1Char.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="textBox1Char.Text" xml:space="preserve">
+    <value>letter(s)</value>
+  </data>
+  <data name="&gt;&gt;textBox1Char.Name" xml:space="preserve">
+    <value>textBox1Char</value>
+  </data>
+  <data name="&gt;&gt;textBox1Char.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1Char.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;textBox1Char.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 283</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Count how many Top</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 194</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 17</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Count characters whose name starts with</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label1countManga.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1countManga.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1countManga.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 105</value>
+  </data>
+  <data name="label1countManga.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 17</value>
+  </data>
+  <data name="label1countManga.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1countManga.Text" xml:space="preserve">
+    <value>Count manga with volumes ≤</value>
+  </data>
+  <data name="&gt;&gt;label1countManga.Name" xml:space="preserve">
+    <value>label1countManga</value>
+  </data>
+  <data name="&gt;&gt;label1countManga.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1countManga.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;label1countManga.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label1finishedAni.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1finishedAni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 21</value>
+  </data>
+  <data name="label1finishedAni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 17</value>
+  </data>
+  <data name="label1finishedAni.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label1finishedAni.Text" xml:space="preserve">
+    <value>Count finished best-rated anime with score ≥</value>
+  </data>
+  <data name="&gt;&gt;label1finishedAni.Name" xml:space="preserve">
+    <value>label1finishedAni</value>
+  </data>
+  <data name="&gt;&gt;label1finishedAni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1finishedAni.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;label1finishedAni.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="listView5Count.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="listView5Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="listView5Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 411</value>
+  </data>
+  <data name="listView5Count.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;listView5Count.Name" xml:space="preserve">
+    <value>listView5Count</value>
+  </data>
+  <data name="&gt;&gt;listView5Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView5Count.Parent" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;listView5Count.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="tabCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabCount.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1027, 418</value>
+  </data>
+  <data name="tabCount.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabCount.Text" xml:space="preserve">
+    <value>Count Among Statistics</value>
+  </data>
+  <data name="&gt;&gt;tabCount.Name" xml:space="preserve">
+    <value>tabCount</value>
+  </data>
+  <data name="&gt;&gt;tabCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCount.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 3</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1035, 447</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1027, 450</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1027, 450</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Anime, Manga and Character Statistics</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1rank.Name" xml:space="preserve">
+    <value>columnHeader1rank</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1rank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2title.Name" xml:space="preserve">
+    <value>columnHeader2title</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3episodes.Name" xml:space="preserve">
+    <value>columnHeader3episodes</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3episodes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4start.Name" xml:space="preserve">
+    <value>columnHeader4start</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader5end.Name" xml:space="preserve">
+    <value>columnHeader5end</value>
+  </data>
+  <data name="&gt;&gt;columnHeader5end.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader6members.Name" xml:space="preserve">
+    <value>columnHeader6members</value>
+  </data>
+  <data name="&gt;&gt;columnHeader6members.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader7score.Name" xml:space="preserve">
+    <value>columnHeader7score</value>
+  </data>
+  <data name="&gt;&gt;columnHeader7score.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1rankM.Name" xml:space="preserve">
+    <value>columnHeader1rankM</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1rankM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1titleM.Name" xml:space="preserve">
+    <value>columnHeader1titleM</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1titleM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1vol.Name" xml:space="preserve">
+    <value>columnHeader1vol</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1vol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1startM.Name" xml:space="preserve">
+    <value>columnHeader1startM</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1startM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1endM.Name" xml:space="preserve">
+    <value>columnHeader1endM</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1endM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1memM.Name" xml:space="preserve">
+    <value>columnHeader1memM</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1memM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1scoreM.Name" xml:space="preserve">
+    <value>columnHeader1scoreM</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1scoreM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
+    <value>columnHeader2</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Name" xml:space="preserve">
+    <value>columnHeader3</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Name" xml:space="preserve">
+    <value>columnHeader4</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader5.Name" xml:space="preserve">
+    <value>columnHeader5</value>
+  </data>
+  <data name="&gt;&gt;columnHeader5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader6.Name" xml:space="preserve">
+    <value>columnHeader6</value>
+  </data>
+  <data name="&gt;&gt;columnHeader6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader7.Name" xml:space="preserve">
+    <value>columnHeader7</value>
+  </data>
+  <data name="&gt;&gt;columnHeader7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader8.Name" xml:space="preserve">
+    <value>columnHeader8</value>
+  </data>
+  <data name="&gt;&gt;columnHeader8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader9.Name" xml:space="preserve">
+    <value>columnHeader9</value>
+  </data>
+  <data name="&gt;&gt;columnHeader9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
